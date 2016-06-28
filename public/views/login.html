@@ -1,0 +1,32 @@
+<div style="margin: 100px">
+    <div class="row">
+        <div class="col-sm-12">
+            <div class="animated bounceIn">
+                <div class="thumbnail">
+                    <div class="clearfix">
+                        <form class="form-signin">
+                            <div class="inputfield">
+                                <h3 class="form-signin-heading" style="margin-left: 300px">Sign In</h3>
+                            </div>
+                            <div class="inputfield" >
+                                <label for="inputEmail" class="sr-only">Email address</label>
+                                <input type="text" id="inputEmail" class="form-control" placeholder="Email address" required autofocus ng-model="user.username">
+                            </div>
+                            <div class="inputfield">
+                                <label for="inputPassword" class="sr-only">Password</label>
+                                <input type="password" id="inputPassword" class="form-control" placeholder="Password" required ng-model="user.password">
+                            </div>
+                            <div class="inputfield" style="margin: 0px 350px">
+                                <button class="btn btn-lg btn-primary btn-block" ng-click="login(user)">Sign in</button>
+                            </div>
+                            <a href="#/register" class="pull-right">Register</a>
+                        </form>
+                    </div>
+
+
+                </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

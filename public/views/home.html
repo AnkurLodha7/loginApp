@@ -1,0 +1,40 @@
+
+<div class="container-fluid outerdiv">
+
+
+
+    <noscript>
+        <div class="nojs">Javascript is either disabled or not supported in your browser. Please enable it or use a Javascript enabled browser.</div>
+    </noscript>
+
+    <div>
+        <div class="input-group search-bar" style="margin: 20px">
+            <input type="text" ng-model="search" ng-model-options="{ debounce: 2000 }"
+                   onclick="select()" class="form-control" placeholder="Enter full movie name" autofocus />
+            <span class="input-group-addon bar-style"></i> Search</span>
+        </div>
+        <div class="row">
+            <div class="col-sm-12 col-md-12">
+                <div class="thumbnail">
+                    <img class="animated flip" ng-src="{{details.Poster}}" alt="{{details.Title}}">
+
+                    <div class="clearfix">
+
+                        <label>Movie Title: </label><h4>{{details.Title}}</h4>
+                        <label>Movie Type: </label><p>{{details.Type}}</p>
+                        <label>Movie Director: </label><p>{{details.Director}}</p>
+                        <label>Movie Actors: </label><p>{{details.Actors}}</p>
+                        <label>Movie RATED: </label><p>{{details.Rated}}</p>
+                        <label>Movie Release Date: </label><p>{{details.Released}}</p>
+                        <label>Movie Plot: </label><p>{{details.Plot}}</p>
+                        <label>Movie Duration: </label><p>{{details.Runtime}}</p>
+                        <label>Movie IMDB Rating: </label><p>{{details.imdbRating}}</p>
+                        <label>Movie Rotten Tomato Rating: </label><p>{{details.tomatoRating}}</p>
+
+                    </div>
+
+                    </div>
+            </div>
+        </div>
+     </div>
+    </div>

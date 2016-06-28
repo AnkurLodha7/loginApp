@@ -1,0 +1,22 @@
+{
+  "name": "login-app",
+  "version": "1.0.0",
+  "description": "A Simple MEAN Login APP using Passport ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ankur Lodha",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "bower": "^1.7.9",
+    "cookie-parser": "^1.4.3",
+    "express": "^4.14.0",
+    "express-session": "^1.13.0",
+    "mongoose": "^4.5.1",
+    "multer": "^1.1.0",
+    "passport": "^0.3.2",
+    "passport-local": "^1.0.0"
+  }
+}

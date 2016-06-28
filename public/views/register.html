@@ -1,0 +1,59 @@
+<div class="alert alert-danger" role="alert" ng-show="register.warning" >Password does not match!Please confirm password</div>
+<div class="row" style="margin: 100px">
+         <div class="col-sm-12">
+             <div class="animated lightSpeedIn">
+                 <div class="thumbnail">
+                 <form class="form-signup">
+                     <div class="clearfix">
+                         <div class="inputfield">
+                             <h2 class="form-signup-heading" style="margin-left: 300px">Sign Up</h2>
+                         </div>
+
+                         <div class="inputfield">
+
+                             <input type="email" id="inputEmail" class="form-control" placeholder="Email address" required autofocus ng-model="user.username">
+                         </div>
+                         <div class="inputfield">
+
+                             <input type="password" id="inputPassword1" class="form-control" placeholder="Password" required autofocus ng-model="user.password">
+                         </div>
+                         <div class="inputfield">
+                             <input type="password" id="inputPassword2" class="form-control"  placeholder="Confirm Password" required autofocus ng-model="user.confirmPassword">
+                         </div>
+                         <div class="inputfield">
+
+                             <input type="text" id="firstname" class="form-control" placeholder="Firstname" required autofocus ng-model="user.firstname">
+                         </div>
+                         <div class="inputfield">
+
+                             <input type="text" id="lastname" class="form-control" placeholder="Lastname" required autofocus ng-model="user.lastname">
+
+                         </div>
+                         <div>
+
+                           <div class="inputfield">
+
+                                 <label>Role:</label>
+                                 <select type="" id="Roles" placeholder="Choose Role" class="form-control" required autofocus ng-model="user.role">
+                                     <option>User/Fan</option>
+                                     <option>Critic</option>
+                                     <option>Admin</option>
+                                 </select>
+
+                             </div>
+                         </div>
+
+
+
+                         <div class="inputfield" style="margin: 0px 350px">
+                             <button class="btn btn-lg btn-primary btn-block" ng-click="register(user)">Register</button>
+                         </div>
+
+                     </div>
+
+                 </form>
+             </div>
+
+         </div>
+    </div>
+</div>

@@ -1,0 +1,25 @@
+
+    <title>{{currentUser.username}}Profile</title>
+
+<div ng-show="currentUser.roles.indexOf('admin')>-1">Admin</div>
+    <table>
+        <thead>
+        <tr>
+            <th>Role</th>
+            <th>E-mail Address</th>
+            <th>First Name</th>
+            <th>Last Name</th>
+            <th>Password</th>
+        </tr>
+        </thead>
+        <tbody>
+            <tr ng-repeat="user in users">
+                <td>{{user.firstname}}</td>
+                <td>{{user.lastname}}</td>
+                <td></td>
+
+            </tr>
+        </tbody>
+    </table>
+
+    <div ng-show="currentUser.roles.indexOf('student')>-1">student</div>

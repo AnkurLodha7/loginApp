@@ -1,0 +1,22 @@
+{
+  "name": "login-app",
+  "description": "A Simple MEAN Login APP using Passport",
+  "main": "index.js",
+  "authors": [
+    "Ankur Lodha"
+  ],
+  "license": "ISC",
+  "homepage": "index.html",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular-route": "^1.5.7",
+    "angular": "^1.5.7",
+    "bootstrap": "^3.3.6"
+  }
+}
